@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpringClient</string>
+    <string name="from_name">Name</string>
+    <string name="from_branch">Branch</string>
+    <string name="from_location">Location</string>
+    <string name="button_save_employee">SAVE EMPLOYEE</string>
+</resources>
