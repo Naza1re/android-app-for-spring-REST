@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             String name = inputEditName.getText().toString();
             String branch = inputEditBranch.getText().toString();
             String location = inputEditLocation.getText().toString();
-            Employee employee = new Employee(name,branch,location);
+            Employee employee = new Employee(name,location,branch);
             employeeApi.save(employee)
                     .enqueue(new Callback<Employee>() {
                         @Override
